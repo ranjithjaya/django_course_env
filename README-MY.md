@@ -110,3 +110,27 @@ class Meetup(models.Model):
     # location = models.ForeignKey(Location, on_delete=models.CASCADE)
     # participants = models.ManyToManyField(Participant, blank=True, null=True)
 ````
+# Development 2nd stage
+- Date: 03-Sep-21
+- pull the src from
+    - [academind/django-practical-guide-course-code Branch: summary-06-using-template-inheritance](https://github.com/academind/django-practical-guide-course-code/tree/summary-06-using-template-inheritance)
+    - cd django_course_env_ver-06
+    - $ git pull origin summary-06-using-template-inheritance
+## push to remote repo
+    - Repository name: django_course_env
+    - Description: Python Django Course for Beginners 2021 - Learn Django from Scratch in this 100% Free & Tutorial
+    - Repo url: https://github.com/ranjithjaya/django_course_env.git
+    - Branch: ver-06-before-work-with-DB
+## check the Alias
+    - $ git remote -v
+### Remove Alias if needed
+    - $ git remote remove origin
+    - $ git remote -v
+### Set Alias for the remote rpo-url
+    - $ git remote add origin https://github.com/ranjithjaya/django_course_env.git
+    - $ git remote -v
+### Commit changes to local rpo area
+    - $ git add .
+    - $ git commit -m "Beginning of ver-6 before work wit DB"
+### Push local rpo to remote rpo
+    - git push -u origin master
