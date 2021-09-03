@@ -5,3 +5,5 @@ This repository holds the code examples and snapshots as well as any other resou
 # How To Use
 
 This repository comes with many branches - different branches reflect different attachments. The branch names allow you to identify the course section + lecture to which the code snapshot belongs.
+
+git pull origin summary-06-using-template-inheritance
